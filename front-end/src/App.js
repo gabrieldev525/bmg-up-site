@@ -1,28 +1,31 @@
 import React, { Component, Fragment } from 'react'
+
+// Redux
 import { connect } from 'react-redux'
-import {setText} from './appActions'
+
+// Local imports
+import { setText } from './appActions'
 
 class Children extends Component {
-    setText() {
-        this.props.setText('Aquele texto')
-    }
-    render() {
-        return (
-            <Fragment>
-                <button onClick={() => this.setText()}>Mudar texto</button>
-                <h1>{this.props.app.text}</h1>
-            </Fragment>
-        )
-    }
+  setText() {
+    this.props.setText('Aquele texto')
+  }
+  render() {
+    return (
+      <Fragment>
+        <button onClick={() => this.setText()}>Mudar texto</button>
+        <h1>{this.props.app.text}</h1>
+      </Fragment>
+    )
+  }
 }
 
-
-const mapStateToProps = ({app}) => {
-  return{
+const mapStateToProps = ({ app }) => {
+  return {
     app
   }
 }
 
-export default connect(mapStateToProps,{
+export default connect(mapStateToProps, {
   setText
 })(Children)

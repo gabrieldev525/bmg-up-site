@@ -1,7 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+
+// Redux
 import { Provider } from 'react-redux'
+
+// Local imports
+import App from './App'
 import store from './store'
 
 
