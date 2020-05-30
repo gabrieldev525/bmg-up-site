@@ -4,6 +4,13 @@
 const Model = use('Model')
 
 class FormInfo extends Model {
+
+   
 }
+
+
+
+
+
 
 module.exports = FormInfo
