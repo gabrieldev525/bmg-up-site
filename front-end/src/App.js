@@ -1,7 +1,12 @@
 import React from 'react'
 
+// Local imports
+import Routes from './router'
+
 function App() {
-  return <h1>Hello World</h1>
+  return (
+    <Routes />
+  )
 }
 
 export default App

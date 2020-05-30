@@ -8,12 +8,11 @@ import {
 // Local imports
 import Form from './page/Form'
 
-
 function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/' exact component={Form}/>
+        <Route path='/' exact component={Form} />
       </Switch>
     </BrowserRouter>
   )
