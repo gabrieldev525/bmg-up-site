@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 
 // Redux
 import { connect } from 'react-redux'
@@ -12,10 +12,10 @@ class Children extends Component {
   }
   render() {
     return (
-      <Fragment>
+      <>
         <button onClick={() => this.setText()}>Mudar texto</button>
         <h1>{this.props.app.text}</h1>
-      </Fragment>
+      </>
     )
   }
 }
