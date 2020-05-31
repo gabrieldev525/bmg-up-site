@@ -7,14 +7,10 @@ import {
 import thunk from 'redux-thunk'
 
 // Local imports
-import appReduce from '../appReducer'
 
 const enhancers = []
 const middleware = [thunk]
-const rootReducer = combineReducers({
-  app: appReduce,
-
-})
+const rootReducer = combineReducers({ })
 
 
 const composedEnhancers = compose(

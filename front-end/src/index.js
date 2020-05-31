@@ -5,12 +5,14 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
 // Local imports
-import App from './App'
-import store from './store'
+// import App from './App'
+import Router from './router'
+import store from './store/'
+import './static/css/global.css'
 
 ReactDOM.render(
- <Provider store={store}>
-   <App />
- </Provider>,
+  <Provider store={store}>
+    <Router />
+  </Provider>,
   document.getElementById('root')
 )
