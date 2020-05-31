@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
 // Local imports
-// import App from './App'
 import Router from './router'
 import store from './store/'
 import './static/css/global.css'
