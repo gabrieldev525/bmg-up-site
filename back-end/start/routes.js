@@ -16,6 +16,3 @@
 const Route = use('Route')
 
 Route.post('/formulario','FormController.formulario')
-
-
-

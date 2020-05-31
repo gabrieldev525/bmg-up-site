@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+//backEnd integration
+
 // Redux
 import { connect } from 'react-redux'
 
