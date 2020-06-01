@@ -103,75 +103,18 @@ function Blog() {
       <div className="main-container-email">
         <div className="text-container">
           <h1>Quer se juntar a família BMG?</h1>
-          <p>Nos informe seu email para que possamos está lhe enviando conteudos exclusivos</p>
+          <p className='text-decription'>Nos informe seu email para que possamos está lhe enviando conteudos exclusivos</p>
         </div>
         <div className="container-form-email">
           <form>
-            <input className='input' type='text' />
+            <input className='input' type='text' placeholder='Email' />
           </form>
           <button type='submit' className='btn-submit-email'>Enviar</button>
         </div>
       </div>
-
-      <div className="item-fetured-vertical">
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-01.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-02.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-03.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-04.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-        </div>
-
-        <div className="item-fetured-vertical">
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-01.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-02.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-03.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-
-          <Featured
-            horizontal={false}
-            imageVertical={false}
-            image={require('../../static/image/destaque-vertical-04.png')}
-            title=' A beautiful title to this article. and how the peoples can help in the own education'
-            text='Ler artigo' />
-        </div>
+      <footer className='footer'>
+      <span>&copy; BMG - 2020</span>
+      </footer>
     </div>
   )
 }
