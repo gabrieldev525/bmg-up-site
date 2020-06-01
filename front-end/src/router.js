@@ -7,12 +7,14 @@ import {
 
 // Local imports
 import Form from './page/Form'
+import Blog from './page/blog'
 
 function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path='/' exact component={Form} />
+        <Route path='/lead' component={Form} />
+        <Route path='/' exact component={Blog} />
       </Switch>
     </BrowserRouter>
   )

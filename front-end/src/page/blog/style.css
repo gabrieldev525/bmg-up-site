@@ -1,0 +1,165 @@
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  background: #f6931f;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin: 2% 2%;
+  margin-right: 10%;
+}
+
+.header ul li {
+  margin-left: 10%;
+}
+
+.header ul li a {
+  color: #fff;
+}
+
+/* Featured week */
+.title-container {
+  position: absolute;
+  margin: 1% 4%;
+  color: #f6931f;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.featured-week {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  width: 100%;
+  height: 70%;
+}
+
+.container-featured-main {
+  width: 70%;
+  margin: 5% 4%;
+}
+
+/* feature 02 image */
+.main-featured-image {
+  width: 100%;
+  height: 90%;
+}
+
+.title-featured {
+  margin-top: 2%;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.description-featured {
+  color: #616161;
+  font-size: 14px;
+  margin-top: 1%;
+}
+
+.container-featured {
+  width: 60%;
+  margin: 5% 1%;
+}
+
+.text-featured-item {
+  margin-left: 3%;
+}
+
+.featured-item-list-horizontal {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30%;
+}
+
+.title-feature-list-item {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.link-more {
+  cursor: pointer;
+  color: #f6931f;
+  margin-top: 4%;
+}
+
+/* featured 02 image*/
+.featured-image {
+  width: 30%;
+  height: 70%;
+}
+
+/* featured list vertical */
+.container-featured-item-list-vertical {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.title-main-container {
+  position: absolute;
+  margin: 1% 4%;
+  color: #f6931f;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.item-fetured-vertical {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-left: 5%;
+}
+
+.featured-item-list-vertical {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 1%;
+  width: 50%;
+}
+
+.featured-image-vertical {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 5%;
+}
+
+/* email container for news requests */
+.main-container-email {
+  display: flex;
+  flex-direction: row;
+  padding: 12% 0;
+  width: 100%;
+  background: #F6931F;
+}
+
+.text-container {
+  width: 45%;
+  background: red;
+}
+
+.container-form-email {
+  margin: auto;
+  width: 10%;
+}
+
+.input {
+  width: 100%;
+}
+
+.btn-submit-email {
+  padding: 3%;
+  margin: 4% 20%;
+  /* width: 60%; */
+}
