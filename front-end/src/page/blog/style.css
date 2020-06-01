@@ -1,5 +1,5 @@
 .main {
-  height: 100%;
+  height: 100% !important;
   display: flex;
   flex-direction: column;
 }
@@ -139,27 +139,83 @@
 .main-container-email {
   display: flex;
   flex-direction: row;
-  padding: 12% 0;
+  padding: 7% 0;
   width: 100%;
   background: #F6931F;
 }
 
+.main-container-email form {
+  margin: auto;
+}
+
 .text-container {
   width: 45%;
-  background: red;
+  margin: 1% 4%;
+  color: #fff;
+}
+
+.text-decription {
+  margin-top: 5%;
 }
 
 .container-form-email {
-  margin: auto;
-  width: 10%;
+  margin: 1% 5%;
+  width: 27%;
 }
 
 .input {
+  outline: none;
+  color: #fff;
+  padding: 5%;
+  border-radius: 14px;
+  border: none;
   width: 100%;
+  background: #C47A23;
+  text-align: center;
+  font-size: 16px;
 }
 
 .btn-submit-email {
-  padding: 3%;
-  margin: 4% 20%;
-  /* width: 60%; */
+  outline: none;
+  cursor: pointer;
+  padding: 4%;
+  margin: 8% 30%;
+  width: 50%;
+  border: none;
+  border-radius: 14px;
+  color: #f6931f;
+  font-size: 16px;
+}
+
+/* container user testimonial */
+.main-container-user-testimonial {
+  width: 100%;
+  height: 50% !important;
+}
+
+.footer {
+  width: 100%;
+  padding: 1% 0;
+  background: #1F1F1F;
+  text-align: center;
+  color: #fff;
+}
+
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
 }
